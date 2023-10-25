@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: hsl(193, 31%, 94%);
+    color: hsl(0, 0%, 5%);
+    padding: 1rem;
+  }
+  main img {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    margin: 0 auto;}
+nav {
+    float: right;
+  }
+nav img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline;
+  float: left;
+  margin:0 auto;
+  
+}
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .portfolio-items {
+    border: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .portfolio-item {
+    width: 25%;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-item img {
+    display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio-item p {
+    font-size: 0.9rem;
+  }
+  #cv button {
+    margin: 0 auto;
+    color: #151414;
+    background-color: hsl(181, 70%, 53%);
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  #section {
+    border: 1px solid black;
+    background-image: url(phone.jpg);
+    background-size:auto;
+    border-radius: 1%;
+  }
+  
+  #contact {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: #333;
+  }
+  
+  #contact form {
+    width: 60%;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 60%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact button {
+    width: 60%;
+    padding: 1rem;
+    background-color: hsl(0, 2%, 34%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #333;
+  }
+  
+  #contact-message {
+    margin-top: 1rem;
+    color: green;
+  }
+  #contact img{
+    display: inline;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: #000;
+  }
+  .social-media-icons {
+    text-align:left;
+  }
+  
+  .social-media-icons li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .social-media-icons a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .social-media-icons a i {
+    font-size: 2rem;
+  }
+  
+  footer {
+    background-color: hsl(193, 31%, 94%);
+    color: hsl(0, 0%, 5%);
+    padding: 1rem;
+    text-align: center;
+  }
+  footer a img{
+    width: 40px;
+    height: 40px;
+  }
+  
